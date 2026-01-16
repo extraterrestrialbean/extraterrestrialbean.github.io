@@ -347,6 +347,47 @@ a.recent_changes > img{
     top: 0.3em;
     right: 0.3em;
 }
+/* cat pictures ///////////////////////////////////////////////////////////////////*/
+.i_heart_femboys{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cat_picture{
+    border-radius: 2rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: background-size 0.5s;
+    overflow: hidden;
+    position: relative;
+    margin: 0.5em;
+}
+.cat_picture:hover{
+    background-size: 130%;
+}
+.catp1{
+    background-image: url(/assets/images/catpics/in-tree-cave.jpg);
+    height: 20em;
+    width: 20em;
+}
+.catp2{
+    background-image: url(/assets/images/catpics/in-tree-cave.jpg);
+    height: 20em;
+    width: 20em;
+}
+.catp3{
+    background-image: url(/assets/images/catpics/in-tree-cave.jpg);
+    height: 20em;
+    width: 20em;
+}
+.catp4{
+    background-image: url(/assets/images/catpics/in-tree-cave.jpg);
+    height: 20em;
+    width: 20em;
+}
 /* video player ///////////////////////////////////////////////////////////////////*/
 .material-icons{
     user-select: none;
