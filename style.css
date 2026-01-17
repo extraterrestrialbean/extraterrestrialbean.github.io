@@ -388,6 +388,15 @@ a.recent_changes > img{
     height: 20em;
     width: 20em;
 }
+/* CORPERATE HELL//////////////////////////////////////////////////////////////////*/
+.corperate_hell_image{
+    background-color: rgb(83, 83, 83);
+    border-radius: 1em;
+    overflow: hidden;
+}
+.corperate_hell_image > img{
+    height: 8em;
+}
 /* video player ///////////////////////////////////////////////////////////////////*/
 .material-icons{
     user-select: none;
