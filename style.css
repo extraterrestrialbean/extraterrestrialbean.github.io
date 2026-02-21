@@ -348,7 +348,7 @@ a.recent_changes > img{
     right: 0.3em;
 }
 /* cat pictures ///////////////////////////////////////////////////////////////////*/
-.i_heart_femboys{
+.container_catpics{
     display: flex;
     background-color: white;
     flex-wrap: wrap;
@@ -387,6 +387,25 @@ a.recent_changes > img{
     background-image: url(/assets/images/catpics/in-tree-cave.jpg);
     height: 20em;
     width: 20em;
+}
+#fullscreen_container{
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 50%; /* how the freak do i center the div bro 😭😭 */
+    bottom: 50%;
+    z-index: 10;
+    height: 0;
+    width: 0;
+    justify-content: center;
+}
+#fullscreen_container #fullscreen_img{
+    height: 45em;
+    position: relative;
+}
+#fullscreen_container #cancel_fullscreen{
+    /* keeping this not empty as if that helps lol but im a double triple secret cool niche wacky nerd who knows the browser will still parse it as empty */
 }
 /* video player ///////////////////////////////////////////////////////////////////*/
 .material-icons{

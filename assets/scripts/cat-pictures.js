@@ -1,0 +1,2 @@
+let fullscreen = none;
+
